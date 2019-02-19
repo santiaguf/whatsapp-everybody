@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8" />
         <title>WhatsApp EveryBody</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
     <body>
         <header>
@@ -23,7 +24,8 @@
             </div>
         </section>
         <footer>
-            <p>Desarrollado por <a href="https://twitter.com/santiaguf">Santiago Bernal</a></p>
+            <p>Desarrollado por <a href="https://twitter.com/santiaguf">Santiago Bernal</a> - 
+                más <a href="https://aumentada.net/como-crear-un-boton-de-whatsapp-chat-en-html/">información</a></p>
         </footer>
         <script type="text/javascript">
             document.getElementById("enviar").addEventListener("click",pasarDatos);
@@ -32,7 +34,6 @@
                 let elmensaje = document.getElementById("mensaje").value;
                 let url = "https://api.whatsapp.com/send?phone="+elnumero+"&text="+elmensaje;
                 window.location= url;
-                //console.log(url);
             }
         </script>
     </body>
