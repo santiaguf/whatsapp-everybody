@@ -4,3 +4,9 @@ body {
 header {
     background-color: #1ebea5;
 }
+h1 {
+    font-size: 2em;
+    font-style: Helvetica Neue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
